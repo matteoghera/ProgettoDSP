@@ -11,6 +11,7 @@ class EnigmaRotor:
 
     #Imposta il rotore sull'elemento specificato: l'elemento comparirà in cima al vettore
     def impostaPosizione(self, elemento):
+        self.numeroSpostamenti=0
         while(not(self.entrata[0].__eq__(elemento))):
             self.sposta()
 
